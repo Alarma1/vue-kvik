@@ -1,29 +1,6 @@
-# vue-kvik-project
-
-This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+[Демо](https://alarma1.github.io/vue-kvik-demo/)  
+[Ссылка на проект](https://github.com/Alarma1/vue-kvik)  
+1. Разработать простое приложение таск-менеджера с использованием Vue 2 или 3 (можно использовать composition API), включая работу с vuex и vue-router.  
+2. Приложение должно иметь главную страницу (на главной странице переход на страницу со списком задач, по желанию можете дать волю своей фантазии) и страницу со списком задач.  
+3. На странице со списком задач должна быть форма создания задачи.  
+4. Задачи можно удалить и отредактировать. При обновлении страницы должны отображаться сохранённые задачи.
