@@ -54,11 +54,14 @@
                 store.commit("changeTasksMutations", JSON.parse(localStorage.tasks))
             }
             const AddTask = () => {
-                store.commit("addTaskMutations", inputValue.value)
-                ChangeLocalStore()
+                if (inputValue.value !== '') {
+                    store.commit("addTaskMutations", inputValue.value)
+                    ChangeLocalStore()
+                }
             }
             const OpenEditTask = (task) => {
                 listItemId.value = task.id
+                editInputValue.value = task.title
                 ChangeLocalStore()
             }
             const EditTask = (task) => {
